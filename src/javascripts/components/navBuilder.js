@@ -14,7 +14,7 @@ const navBuilder = () => {
           <a class="nav-link" href="#" id="lyrics">Lyrics</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#" id="weather">Weather</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#">Disabled</a>
