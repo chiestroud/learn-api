@@ -1,5 +1,6 @@
 import displayJokeContainer from '../components/forms/jokeContainer';
 import showJoke from '../components/forms/showJoke';
+import showLyrics from '../components/forms/showLyrics';
 import getJoke from '../helpers/data/jokeData';
 import getLyrics from '../helpers/data/lyricsData';
 
@@ -20,7 +21,8 @@ const domEvents = () => {
       e.preventDefault();
       const artist = document.querySelector('#artist').value;
       const songTitle = document.querySelector('#songTitle').value;
-      getLyrics(artist, songTitle);
+      document.querySelector('#searchLyrics').innerHTML = 'Loading...';
+      getLyrics(artist, songTitle).then((songObject) => showLyrics(songObject));
     }
   });
 };

@@ -8,6 +8,9 @@ const navEvents = () => {
   document.querySelector('#lyrics').addEventListener('click', () => {
     lyricsContainer();
   });
+  document.querySelector('#weather').addEventListener('click', () => {
+    console.warn('weather');
+  });
 };
 
 export default navEvents;
