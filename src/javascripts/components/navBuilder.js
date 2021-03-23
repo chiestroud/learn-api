@@ -11,7 +11,7 @@ const navBuilder = () => {
           <a class="nav-link" href="#" id="jokes">Jokes <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#" id="lyrics">Lyrics</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
