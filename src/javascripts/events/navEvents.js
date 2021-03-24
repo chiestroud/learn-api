@@ -1,5 +1,6 @@
 import displayJokeContainer from '../components/forms/jokeContainer';
 import lyricsContainer from '../components/forms/lyricsContainer';
+import weatherContainer from '../components/forms/weatherContainer';
 
 const navEvents = () => {
   document.querySelector('#jokes').addEventListener('click', () => {
@@ -9,7 +10,7 @@ const navEvents = () => {
     lyricsContainer();
   });
   document.querySelector('#weather').addEventListener('click', () => {
-    console.warn('weather');
+    weatherContainer();
   });
 };
 

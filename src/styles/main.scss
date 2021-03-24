@@ -70,3 +70,15 @@ margin-left: 18%;
 #results {
   white-space: pre-line;
 }
+
+#weatherContainer {
+  display: grid;
+  align-content: center;
+  width: 628px;
+  height: 301px;
+  left: 406px;
+  top: 569px;
+  background: #E6C4C4;
+  border-radius: 20px;
+  color: #111;
+}
