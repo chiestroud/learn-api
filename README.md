@@ -6,11 +6,11 @@ Learning API is fun! I am starting to learn how to use API.
 2. Lyrics API to generate lyric of song of an artist you like.
 3. Weather API to give you weather of your favorite location.
 
-1. Joke Generator
+Joke Generator
 ![image](https://user-images.githubusercontent.com/68720317/112919837-732daa00-90cd-11eb-8eb8-e7995cdededb.png)
 
-2. Lyrics Generator
+Lyrics Generator
 ![image](https://user-images.githubusercontent.com/68720317/112919913-9193a580-90cd-11eb-8ad0-075317145ff6.png)
 
-3. Weather Generator
+Weather Generator
 ![image](https://user-images.githubusercontent.com/68720317/112920017-c0aa1700-90cd-11eb-9806-37d9d8951f55.png)
